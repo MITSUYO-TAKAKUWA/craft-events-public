@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T16:53:34.849462+00:00",
+  "generatedAt": "2026-10-22T17:29:05.612931+00:00",
   "notices": [
     {
       "postId": "18069745913767456",
@@ -122,9 +122,5 @@
       "sourceUrl": "https://www.instagram.com/p/DddKu7qE0kO/",
       "postedAt": "2026-09-19T04:36:53+00:00"
     }
-  ],
-  "sourceStatus": {
-    "state": "meta-api-blocked",
-    "checkedAt": "2026-10-22T17:10:37.037048+00:00"
-  }
+  ]
 }
