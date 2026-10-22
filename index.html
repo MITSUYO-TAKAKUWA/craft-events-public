@@ -88,6 +88,7 @@ $('account').addEventListener('change',render);
   if(!r.ok)throw Error('FETCH_'+r.status);
   const v=await r.json();
   if(!v||!Array.isArray(v.notices))throw Error('FEED_INVALID');
+  if(v.sourceStatus?.state==='meta-api-blocked'){$('error').hidden=false;$('error').textContent='現在、Instagramの新規取得が停止しています。掲載済みの告知は前回取得時点の情報です。元投稿で最新状況をご確認ください。';}
   notices=v.notices.filter(x=>x&&typeof x.title==='string'&&typeof x.description==='string'&&['craft.apartment.nippori','tamakuma7'].includes(x.account)&&linkOK(x.sourceUrl)).slice(0,80);
   const stamp=new Date(v.generatedAt);
   if(Number.isFinite(stamp.valueOf()))$('updated').textContent='最終更新：'+new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',dateStyle:'medium',timeStyle:'short'}).format(stamp);

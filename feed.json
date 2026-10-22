@@ -122,5 +122,9 @@
       "sourceUrl": "https://www.instagram.com/p/DddKu7qE0kO/",
       "postedAt": "2026-09-19T04:36:53+00:00"
     }
-  ]
+  ],
+  "sourceStatus": {
+    "state": "meta-api-blocked",
+    "checkedAt": "2026-10-22T17:10:37.037048+00:00"
+  }
 }
