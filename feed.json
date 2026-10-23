@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T13:53:45.259860+00:00",
+  "generatedAt": "2026-10-23T15:37:53.962498+00:00",
   "notices": [
     {
       "postId": "18069745913767456",
@@ -10,7 +10,18 @@
       "captionStatus": "complete",
       "sourceUrl": "https://www.instagram.com/p/Dea_Gr3k99c/",
       "postedAt": "2026-10-13T04:48:11+00:00",
-      "publicUntil": "2026-12-27T04:48:11+00:00"
+      "publicUntil": "2026-12-27T04:48:11+00:00",
+      "translation": {
+        "version": 1,
+        "provider": "google-cloud-translation-basic",
+        "model": "nmt",
+        "sourceLanguage": "ja",
+        "targetLanguage": "en",
+        "sourceHash": "d2a4406c100bf61cb9936736ecbe0887815e4adb7160ddda700c122249a58b91",
+        "title": "Starting today, deni_cla (denicla) from room 508 will be providing the following services.",
+        "description": "Starting today, a pop-up shop by deni_cla (denicla) has opened in room 508.\n\nA wide variety of unique and heartwarming hand-knitted items are available, including autumn-themed amigurumi, keychains, trinket boxes, lamps, and more. 🍄🍂\n\nWarm items perfect for outings are also on sale, such as scarves, hats, detachable hoods, and arm warmers, made with various types of yarn. 🧶\nEach item boasts a one-of-a-kind design and is sure to become the centerpiece of your outfit! ✨\n\nPlease take this opportunity to find your favorite! 😊\n\nThe deni_cla pop-up shop will be held at the main table in the store until Saturday, 10/17.\n\nWe look forward to your visit! ☺︎\n\n🏡\nCraft Apartment Nippori\n〒116-0014 Higashi-Nippori, Arakawa-ku, Tokyo 6-17-8\nBusiness Hours: 11:00〜17:00\nClosed: Sundays and public holidays\n\n#knitting\n#handknitting\n#handmade\n#craftapartmentnippori\n#nipporitextiletown",
+        "translatedAt": "2026-10-23T15:37:40.594702+00:00"
+      }
     },
     {
       "postId": "18048964466813637",
