@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T15:39:04.957433+00:00",
+  "generatedAt": "2026-10-23T15:46:16.923888+00:00",
   "notices": [
     {
       "postId": "18069745913767456",
@@ -43,9 +43,13 @@
         "sourceLanguage": "ja",
         "targetLanguage": "en",
         "sourceHash": "96221b16f0320bbf65adaa13c13fbd66f7ea40271f17b06609d53c69a761823a",
-        "title": "10 Monthly Nippori Textile Town Workshop 🧵",
-        "description": "10 Monthly Nippori Textile Town Workshop 🧵\n\nMany workshops are still accepting reservations!\n\nPlease contact Craft Apartment for inquiries. 🏡\n\n●10/16 (Fri)\n\"Skirt-Style Wide Pants Made with a Home Sewing Machine\"\nInstructor: Sayukido\n*Reservation deadline is 10/14 (Wed) at 17\n\n●10/20 (Tue)\n\"Genuine Leather Clasp Pouch Made with a Home Sewing Machine\"\nInstructor: Mint collection mint.col ●10/17 (Sat)\n\"Spring Pouch Made with a Home Sewing Machine\"\nInstructor: Madam Paprika madam_paprika611\n*13:00 is fully booked\n\n●10/21 (Wed)\n\"An Adult Necklace Evoking Autumn\"\nInstructor: blue glove clover blue_glove_clover\n\n●10/22 (Thu), 10/24 (Sat)\n\"Wool Felt Halloween Ghost\"\nInstructor: Piccola Creature piccolacreature ●10/31 (Sat)\n\"Making a Lapis Lazuli Cat Brooch with Resin\"\nInstructor: Handmade Workshop Bobo-ya fukusitaisaku_boboya\n\n﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌\n*Minors must be accompanied by a guardian.\n*Please note that the workshop may be canceled or postponed depending on the circumstances.\n\n🎁All workshop participants in the month of 10 will receive a Furatto Nippori original mini towel as a gift✨\n\nSample works from each workshop can be viewed at \"Furatto Nippori\".\n\n〈Reservations & Inquiries〉\nCraft Apartment (Craft Apartment) Nippori\nReservations are accepted in-store, by phone, and via Instagram DM.\n\nAddress: Arakawa-ku, Higashi-Nippori 6-17-8\nBusiness Hours: 11:00〜17:00 (Closed Sundays and public holidays)\nTEL: 080-7063-5799 (10:30〜17:30 on business days)\n\n〈Venue〉\nFlat Nippori (Arakawa-ku Nippori Community Revitalization Facility)\nAddress: Arakawa-ku, Higashi-Nippori 6-17-6\n\n〈Organizer〉\nArakawa-ku, Tokyo Nippori Textile Wholesale Cooperative\n\n#NipporiFabricTownWorkshop\n#FlatNippori\n#Workshop\n#NipporiFabricTown\n#nipporifabrictown",
-        "translatedAt": "2026-10-23T15:38:50.732035+00:00"
+        "title": "October Nippori Textile Town Workshops 🧵",
+        "description": "October Nippori Textile Town Workshops 🧵\n\nMany workshops are still accepting reservations!\n\nPlease contact Craft Apartment for inquiries. 🏡\n\n●10/16 (Fri)\n\"Skirt-Style Wide Pants Made with a Home Sewing Machine\"\nInstructor: Sayukido\n*Reservation deadline is 10/14 (Wed) at 17:00\n\n●10/20 (Tue)\n\"Genuine Leather Clasp Pouch Made with a Home Sewing Machine\"\nInstructor: Mint collection mint.col ●10/17 (Sat)\n\"Flex-frame Pouch Made with a Home Sewing Machine\"\nInstructor: Madam Paprika madam_paprika611\n*13:00 is fully booked\n\n●10/21 (Wed)\n\"An Adult Necklace Evoking Autumn\"\nInstructor: blue glove clover blue_glove_clover\n\n●10/22 (Thu), 10/24 (Sat)\n\"Wool Felt Halloween Ghost\"\nInstructor: Piccola Creature piccolacreature ●10/31 (Sat)\n\"Making a Lapis Lazuli Cat Brooch with Resin\"\nInstructor: Handmade Workshop Bobo-ya fukusitaisaku_boboya\n\n﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌\n*Minors must be accompanied by a guardian.\n*Please note that the workshop may be canceled or postponed depending on the circumstances.\n\n🎁All workshop participants in October will receive a Furatto Nippori original mini towel as a gift✨\n\nSample works from each workshop can be viewed at \"Furatto Nippori\".\n\n〈Reservations & Inquiries〉\nCraft Apartment (Craft Apartment) Nippori\nReservations are accepted in-store, by phone, and via Instagram DM.\n\nAddress: Arakawa-ku, Higashi-Nippori 6-17-8\nBusiness Hours: 11:00〜17:00 (Closed Sundays and public holidays)\nTEL: 080-7063-5799 (10:30〜17:30 on business days)\n\n〈Venue〉\nFuratto Nippori (Arakawa-ku Nippori Community Revitalization Facility)\nAddress: Arakawa-ku, Higashi-Nippori 6-17-6\n\n〈Organizer〉\nArakawa-ku, Tokyo Nippori Textile Wholesale Cooperative\n\n#NipporiFabricTownWorkshop\n#FlatNippori\n#Workshop\n#NipporiFabricTown\n#nipporifabrictown",
+        "translatedAt": "2026-10-23T15:38:50.732035+00:00",
+        "postEdit": {
+          "reviewedAt": "2026-10-23T15:46:04.859764+00:00",
+          "reason": "Checked against Japanese source: month/unit wording, maker room attribution and source account spelling. No event schedule inferred."
+        }
       }
     },
     {
@@ -56,7 +60,18 @@
       "captionStatus": "complete",
       "sourceUrl": "https://www.instagram.com/p/DeTKay3FJkU/",
       "postedAt": "2026-10-10T03:53:08+00:00",
-      "publicUntil": "2026-12-24T03:53:08+00:00"
+      "publicUntil": "2026-12-24T03:53:08+00:00",
+      "translation": {
+        "version": 1,
+        "provider": "google-cloud-translation-basic",
+        "model": "nmt",
+        "sourceLanguage": "ja",
+        "targetLanguage": "en",
+        "sourceHash": "6e6a9dabb1e1b737f52e8c4f6da9b45f8544e32f1472893e38ea2c051378fe96",
+        "title": "Craft Halloween!",
+        "description": "\\Craft Halloween/\n\nThe Halloween corner in our shop is getting more and more exciting every day! 👻🎃\n\nFabric accessories, jewelry, needle felting,\nmacrame, knitting, wood carving, and more...\nEach artist expresses themselves in a variety of ways.\n\n\nDon't miss this opportunity to enjoy Halloween at Craft Apartment! 🌟\n\n'Craft Halloween' runs until Saturday (10/31)\n\n◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖\n\nCraft Apartment Nippori\n〒116-0014 Higashi-Nippori, Arakawa-ku, Tokyo 6-17-8\nBusiness Hours 11:00〜17:00\nClosed: Sundays and public holidays\n\n◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖\n\n#Halloween\n#HalloweenGoods\n#Handmade\n#NipporiFabricTown\n#nipporifabrictown",
+        "translatedAt": "2026-10-23T15:40:28.025203+00:00"
+      }
     },
     {
       "postId": "18103125362629424",
@@ -66,7 +81,22 @@
       "captionStatus": "complete",
       "sourceUrl": "https://www.instagram.com/p/DeI8N4wk_d1/",
       "postedAt": "2026-10-06T04:36:38+00:00",
-      "publicUntil": "2026-12-20T04:36:38+00:00"
+      "publicUntil": "2026-12-20T04:36:38+00:00",
+      "translation": {
+        "version": 1,
+        "provider": "google-cloud-translation-basic",
+        "model": "nmt",
+        "sourceLanguage": "ja",
+        "targetLanguage": "en",
+        "sourceHash": "c4fde547236425748d1f874c8d86f5b157d9be4422dc78e41519a7d0be883df5",
+        "title": "Pop-up",
+        "description": "Pop-up Shop!\n\nStarting today, a pop-up shop by LUNA, the makers from Room 206, has begun! ✨\n\nThe tables are filled with a variety of handmade items by two artists, including fabric accessories, hand-knitted items, tatami mat edging items, and resin accessories.\n\nPouches made from cute fabrics and drawstring bags with adorable cat ears are popular items for personal use or as gifts.\n\nThe cute hand-knitted hats, shaped like whipped cream, are made with warm yarn perfect for the coming season.\n\nThey come in solid colors and gradient colors, so you can choose one to match your outfit!\n\nThey're sure to brighten your mood when you go out in the cold weather!\n\nThere are also items made with slightly unusual materials!\n\nMedicine notebooks and keychains made from tatami mat edging are exciting items that are sure to spark conversations.\n\nThey come in a variety of patterns, from colorful and pop designs to chic and sophisticated ones.\n\n\nThese original accessories, crafted from resin and buttons, feature unique designs with sparkling parts and cat-shaped charms encased in resin.\nBrooches, hairpins, rings, necklaces, and more—please take your time to browse and find your favorite! 😊\nLUNA's pop-up shop is open until Saturday (10/10) at the main table in the shop.\nWe look forward to your visit! ☺︎\n\n🏡\nCraft Apartment Nippori\n〒116-0014 Higashi-Nippori, Arakawa-ku, Tokyo 6-17-8\nBusiness Hours: 11:00〜17:00\nClosed: Sundays and public holidays\n\n#Handmade\n#FabricAccessories\n#Knitting\n#ResinAccessories\n#NipporiTextileTown",
+        "translatedAt": "2026-10-23T15:40:28.025203+00:00",
+        "postEdit": {
+          "reviewedAt": "2026-10-23T15:46:04.860162+00:00",
+          "reason": "Checked against Japanese source: month/unit wording, maker room attribution and source account spelling. No event schedule inferred."
+        }
+      }
     },
     {
       "postId": "18426619804151641",
@@ -76,7 +106,22 @@
       "captionStatus": "complete",
       "sourceUrl": "https://www.instagram.com/p/DeGSuNLE0nX/",
       "postedAt": "2026-10-05T03:55:33+00:00",
-      "publicUntil": "2026-12-19T03:55:33+00:00"
+      "publicUntil": "2026-12-19T03:55:33+00:00",
+      "translation": {
+        "version": 1,
+        "provider": "google-cloud-translation-basic",
+        "model": "nmt",
+        "sourceLanguage": "ja",
+        "targetLanguage": "en",
+        "sourceHash": "c57c68897ee1f5a7bab02cbe9e786b519329c80feb542123e48c5da96799b152",
+        "title": "Workshop on 10/6 (Tue) and 10/7 (Wed)",
+        "description": "10/6 (Tue), 10/7 (Wed) Event!\n\nA workshop perfect for Halloween will be held at Furatto Nippori!\n\n\"Making a Swinging Skeleton with Macrame\"\n\nLet's make a skeleton perfect for Halloween using basic macrame knotting techniques!\nFinished size: Skeleton body length approximately 10 cm\nWorkshop time: 11:00 - Last registration 15:00\nDuration: approximately 30 minutes per piece\nCapacity: 4 people per hour\nPrice: ¥1,000 per piece (up to 3 skeletons per person; materials included)\nInstructor: Kick Slash Japan kickslashjapan You can participate without a reservation, so please feel free to drop by! 😊\n\n〈Regarding Reservations〉\nReservations are accepted until 17:00 on the day before the event.\nPlease inquire at the Craft Apartment Nippori store, by phone, or via Instagram DM.\n\n☎︎ 080-7063-5799\n\nWe look forward to seeing many of you there! 👻🎃\n\n#Halloween\n#HalloweenWorkshop\n#MacrameWorkshop\n#FlatNippori\n#NipporiTextileTown",
+        "translatedAt": "2026-10-23T15:43:09.857974+00:00",
+        "postEdit": {
+          "reviewedAt": "2026-10-23T15:46:04.860207+00:00",
+          "reason": "Checked against Japanese source: month/unit wording, maker room attribution and source account spelling. No event schedule inferred."
+        }
+      }
     },
     {
       "postId": "18038817269813051",
@@ -86,7 +131,18 @@
       "captionStatus": "complete",
       "sourceUrl": "https://www.instagram.com/p/DeBWHntE6Rl/",
       "postedAt": "2026-10-03T05:49:02+00:00",
-      "publicUntil": "2026-12-17T05:49:02+00:00"
+      "publicUntil": "2026-12-17T05:49:02+00:00",
+      "translation": {
+        "version": 1,
+        "provider": "google-cloud-translation-basic",
+        "model": "nmt",
+        "sourceLanguage": "ja",
+        "targetLanguage": "en",
+        "sourceHash": "a15392b5066af1c4fe4ec346c0f46521548030fe51942f8258f5bb904dad52bc",
+        "title": "Craft Halloween is now underway!",
+        "description": "\\Craft Halloween Event Now On!/\n\nWe're receiving a steady stream of wonderful Halloween creations! 👻♪\n\nFrom items perfect for costumes and parties to items that subtly incorporate the Halloween spirit, we have something for everyone! ✨\n\nPlease enjoy our fun and lively Halloween corner! ☺︎\n\n◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖\n\nCraft Apartment Nippori\n〒116-0014 Higashi-Nippori, Arakawa-ku, Tokyo 6-17-8\nBusiness Hours 11:00〜17:00\nClosed: Sundays and public holidays\n\n◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖\n\n#Halloween\n#HalloweenGoods\n#HalloweenAccessories\n#Handmade\n#NipporiTextileTownHandmadeCampaign",
+        "translatedAt": "2026-10-23T15:43:54.003522+00:00"
+      }
     },
     {
       "postId": "17906363460568271",
@@ -96,7 +152,22 @@
       "captionStatus": "complete",
       "sourceUrl": "https://www.instagram.com/p/Dd-iP3QE1o2/",
       "postedAt": "2026-10-02T03:37:18+00:00",
-      "publicUntil": "2026-12-16T03:37:18+00:00"
+      "publicUntil": "2026-12-16T03:37:18+00:00",
+      "translation": {
+        "version": 1,
+        "provider": "google-cloud-translation-basic",
+        "model": "nmt",
+        "sourceLanguage": "ja",
+        "targetLanguage": "en",
+        "sourceHash": "57ba455822820e634f747b7d0d4307366a5d715fd83f75827db393d89b21fcef",
+        "title": "October business calendar 🍁",
+        "description": "This is our October business calendar 🍁\n\n*There was an error in the calendar we posted the other day, so we are posting it again. 🙇‍♀️\n10/12 (Monday) is a public holiday, so we will be closed.\n\nPlease check out our in-store events, pop-ups,\nNippori Fabric Town workshop information, etc. ☺︎\n\n🏡\n\nCraft Apartment Nippori\n〒116-0014 Higashi-Nippori, Arakawa-ku, Tokyo 6-17-8\nBusiness Hours 11:00〜17:00\nClosed: Sundays and public holidays\n☎︎ 080-7063-5799\n\n#craftapartmentnippori\n#handmade\n#Halloween\n#NipporiFabricTown\n#nipporifabrictown",
+        "translatedAt": "2026-10-23T15:43:54.003522+00:00",
+        "postEdit": {
+          "reviewedAt": "2026-10-23T15:46:04.860254+00:00",
+          "reason": "Checked against Japanese source: month/unit wording, maker room attribution and source account spelling. No event schedule inferred."
+        }
+      }
     },
     {
       "postId": "18112758326038131",
@@ -106,7 +177,18 @@
       "captionStatus": "complete",
       "sourceUrl": "https://www.instagram.com/p/Dd5sG8eE7gL/",
       "postedAt": "2026-09-30T06:27:16+00:00",
-      "publicUntil": "2026-12-14T06:27:16+00:00"
+      "publicUntil": "2026-12-14T06:27:16+00:00",
+      "translation": {
+        "version": 1,
+        "provider": "google-cloud-translation-basic",
+        "model": "nmt",
+        "sourceLanguage": "ja",
+        "targetLanguage": "en",
+        "sourceHash": "7408fbc20082c3b5ceac597d8629e19afd694d69006b5e018e72e0a7bd0d543a",
+        "title": "👻In-store event🌟",
+        "description": "👻In-Store Event🌟\n\n\"Craft Halloween\" is now underway!\nA collection of unique, handmade Halloween goods by various artists!\n\nJust looking at them is exciting♪\nPlease come and experience the Halloween atmosphere at Craft Apartment🎃\n\nWe look forward to your visit☺︎\n\n◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖\nCraft Apartment Nippori\n〒116-0014 Higashi-Nippori, Arakawa-ku, Tokyo 6-17-8\nBusiness Hours 11:00〜17:00\nClosed: Sundays and public holidays\n◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖\n\n#Halloween\n#HalloweenGoods\n#Handmade\n#NipporiTextileTown\n#craftapartmentNippori",
+        "translatedAt": "2026-10-23T15:43:54.003522+00:00"
+      }
     },
     {
       "postId": "18078490139379249",
@@ -116,7 +198,22 @@
       "captionStatus": "complete",
       "sourceUrl": "https://www.instagram.com/p/Dd3UMK7k3D6/",
       "postedAt": "2026-09-29T08:19:47+00:00",
-      "publicUntil": "2026-12-13T08:19:47+00:00"
+      "publicUntil": "2026-12-13T08:19:47+00:00",
+      "translation": {
+        "version": 1,
+        "provider": "google-cloud-translation-basic",
+        "model": "nmt",
+        "sourceLanguage": "ja",
+        "targetLanguage": "en",
+        "sourceHash": "5419e729020e36d6a42d4ad29f6f89801dd9de3d488028bb1fcdb05bba14f841",
+        "title": "Pop-up",
+        "description": "Pop-up Shop!\n\nStarting today, the pop-up shop \"red white blue sometime pink\" by BOOOOOOO (booooooo.co), the maker from Room 203, has begun!\n\nAs the title suggests, it features amigurumi, stuffed animals, and fabric accessories in red, white, blue, and pink.\n\nEach piece is meticulously crafted with attention to detail.\n\nEach item is unique and possesses an irresistible cuteness that will tug at your heartstrings.\n\nPlease take your time to browse! ☺️\n\nThe amigurumi come in various sizes, from small ones around 2cm to large ones exceeding 30cm!\n\nThese small amigurumi are recommended for combining with larger amigurumi, or with your existing stuffed animals and dolls 🧸\n\nBears, ducks, dogs, rabbits, and more\nThe space is so exciting and fun, you can almost hear the animals chatting!\nEnjoy BOOOOOOO's unique world 🌳\n\nThe event runs until Saturday, 10/3.\n\nWe look forward to your visit! ☺︎\n\n◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖\nCraft Apartment Nippori\n〒116-0014 Higashi-Nippori, Arakawa-ku, Tokyo 6-17-8\nBusiness Hours 11:00〜17:00\nClosed: Sundays and public holidays\n◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖\n\n#amigurumi\n#stuffedanimals\n#fabricaccessories\n#handmade\n#NipporiTextileTown",
+        "translatedAt": "2026-10-23T15:43:54.003522+00:00",
+        "postEdit": {
+          "reviewedAt": "2026-10-23T15:46:04.860302+00:00",
+          "reason": "Checked against Japanese source: month/unit wording, maker room attribution and source account spelling. No event schedule inferred."
+        }
+      }
     },
     {
       "postId": "18630033520029703",
@@ -126,7 +223,22 @@
       "captionStatus": "complete",
       "sourceUrl": "https://www.instagram.com/p/Dd22Kt9EzPq/",
       "postedAt": "2026-09-29T03:57:26+00:00",
-      "publicUntil": "2026-12-13T03:57:26+00:00"
+      "publicUntil": "2026-12-13T03:57:26+00:00",
+      "translation": {
+        "version": 1,
+        "provider": "google-cloud-translation-basic",
+        "model": "nmt",
+        "sourceLanguage": "ja",
+        "targetLanguage": "en",
+        "sourceHash": "7c7b93b292ba8440dc7ab5be06e0014d9dd807616de49e1e70d3022022ef6332",
+        "title": "Workshop Exhibition",
+        "description": "Workshop Exhibition/\n\nSample works from the October Nippori Textile Town workshops are currently on display on the 1st floor of the venue, \"Furatto Nippori.\"\n\nWhen you visit the Textile Town, we would be delighted if you could take a break at \"Furatto Nippori\" and enjoy the exhibition! 😊\n\n●Fully Booked Notice\n\"Skirt-Style Wide Pants Made with a Home Sewing Machine\" 10/3 (Sat) Fully Booked\n\"Basic Coin Purse Made with Liberty Fabric\" 10/23 (Fri) 13:30 Fully Booked\n\n〈Reservations & Inquiries〉\nCraft Apartment Nippori\nReservations are accepted in-store, by phone, and via Instagram DM.\n\nAddress: Higashi-Nippori, Arakawa-ku 6-17-8\nBusiness Hours: 11:00〜17:00 (Closed Sundays and public holidays)\nTEL: 080-7063-5799 (10:30〜17:30 on business days)\n\n〈Venue〉\nFuratto Nippori (Arakawa-ku Nippori Community Revitalization Facility)\nAddress: Higashi-Nippori, Arakawa-ku 6-17-6\n\n〈Organizer〉\nArakawa-ku, Tokyo Nippori Textile Wholesale Cooperative\n\n#NipporiFabricTownWorkshop\n#FlatNippori\n#Workshop\n#NipporiFabricTown\n#nipporifabrictown",
+        "translatedAt": "2026-10-23T15:43:54.003522+00:00",
+        "postEdit": {
+          "reviewedAt": "2026-10-23T15:46:04.860331+00:00",
+          "reason": "Checked against Japanese source: month/unit wording, maker room attribution and source account spelling. No event schedule inferred."
+        }
+      }
     },
     {
       "postId": "18111351056597142",
@@ -136,7 +248,22 @@
       "captionStatus": "complete",
       "sourceUrl": "https://www.instagram.com/p/DdvVPJIk_ah/",
       "postedAt": "2026-09-26T05:55:00+00:00",
-      "publicUntil": "2026-12-10T05:55:00+00:00"
+      "publicUntil": "2026-12-10T05:55:00+00:00",
+      "translation": {
+        "version": 1,
+        "provider": "google-cloud-translation-basic",
+        "model": "nmt",
+        "sourceLanguage": "ja",
+        "targetLanguage": "en",
+        "sourceHash": "c1498a37cec592c6486cc723dacccae6d17001a89e474f02dc4302b6717e797f",
+        "title": "October pop-up shops",
+        "description": "October Pop-up Shops\n\nA weekly pop-up event held inside Craft Apartment!\n\nWorks by 4 artists will burst out of their boxes and fill the main table!\n\nPlease check them out! ☺︎\n\n┈┈┈┈┈┈┈ ❁ ❁ ❁ ┈┈┈┈┈┈┈┈\n\n'LUNA Pop-up'\nDates: 10/6 (Tue) - 10/10 (Sat)\nArtist: LUNA\n\n'denicla Pop-up'\nDates: 10/13 (Tue) - 10/17 (Sat)\nArtist: deni_cla\n\n'Mopy Exhibition'\nDates: 10/20 (Tue) - 10/24 (Sat)\nArtist: Tamachan (tamakuma7)\n\n'Raison d'Or' Pop-up Shop\nEvent Period: 10/27 (Tue) - 10/31 (Sat)\nArtist: la_raisondor\n\n┈┈┈┈┈┈┈ ❁ ❁ ❁ ┈┈┈┈┈┈┈┈\n▧ ▦ ▤ ▥ ▧ ▦ ▤ ▥ ▧ ▦ ▤ ▥ ▧ ▦ ▤ ▥\nCraft Apartment Nippori\n〒116-0014 Higashi-Nippori, Arakawa-ku, Tokyo 6-17-8\nBusiness Hours 11:00〜17:00\nClosed: Sundays and public holidays\n☎︎ 080-7063-5799\n▧ ▦ ▤ ▥ ▧ ▦ ▤ ▥ ▧ ▦ ▤ ▥ ▧ ▦ ▤ ▥\n\n#craftapartmentnippori\n#nipporifabrictown\n#handmade\n#handmade\n#nipporifabrictown",
+        "translatedAt": "2026-10-23T15:43:54.003522+00:00",
+        "postEdit": {
+          "reviewedAt": "2026-10-23T15:46:04.860362+00:00",
+          "reason": "Checked against Japanese source: month/unit wording, maker room attribution and source account spelling. No event schedule inferred."
+        }
+      }
     },
     {
       "postId": "18106512392629023",
@@ -146,7 +273,22 @@
       "captionStatus": "complete",
       "sourceUrl": "https://www.instagram.com/p/DdtCqORE98-/",
       "postedAt": "2026-09-25T08:34:11+00:00",
-      "publicUntil": "2026-12-09T08:34:11+00:00"
+      "publicUntil": "2026-12-09T08:34:11+00:00",
+      "translation": {
+        "version": 1,
+        "provider": "google-cloud-translation-basic",
+        "model": "nmt",
+        "sourceLanguage": "ja",
+        "targetLanguage": "en",
+        "sourceHash": "e177a403dfa4ea8b132a116882801412f660bda2099f91cc9dcb67389bebce18",
+        "title": "It's on until tomorrow! 🧶👛",
+        "description": "Running until tomorrow! 🧶👛\n\nThe in-store event, \"Knitting & Amigurumi Festival,\" and the pop-up shop by Madam Paprika (madam_paprika611) will end tomorrow 9/26 (Saturday).\n\nWe have a wonderful selection of works, so please stop by!\n\nWe look forward to seeing you tomorrow from 11:00 to 17:00 ☺︎\n\n#craftapartmentNippori\n#NipporiTextileTown\n#coinpurse\n#knitting\n#amigurumi",
+        "translatedAt": "2026-10-23T15:43:54.003522+00:00",
+        "postEdit": {
+          "reviewedAt": "2026-10-23T15:46:04.860386+00:00",
+          "reason": "Checked against Japanese source: month/unit wording, maker room attribution and source account spelling. No event schedule inferred."
+        }
+      }
     },
     {
       "postId": "18624544075050472",
@@ -156,7 +298,18 @@
       "captionStatus": "complete",
       "sourceUrl": "https://www.instagram.com/p/DdqH_yaE_gI/",
       "postedAt": "2026-09-24T05:23:06+00:00",
-      "publicUntil": "2026-12-08T05:23:06+00:00"
+      "publicUntil": "2026-12-08T05:23:06+00:00",
+      "translation": {
+        "version": 1,
+        "provider": "google-cloud-translation-basic",
+        "model": "nmt",
+        "sourceLanguage": "ja",
+        "targetLanguage": "en",
+        "sourceHash": "3f39c06486836a88e6cf3301cc8dff33183504d4ff115b83d1ee07d58b9a06e2",
+        "title": "We're holding it again this year! 👻🌟",
+        "description": "We're holding it again this year! 👻🌟\n\n\"Craft Halloween\"\n9/29 (Tue) - 10/31 (Sat)\n\nDuring this period, a collection of unique Halloween works by Craft Apartment's artists will be available!\n\nPlease enjoy the Halloween atmosphere in the store! 🎃\n\n◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖\n\nCraft Apartment Nippori\nHigashi-Nippori, Arakawa-ku, Tokyo 6-17-8\nBusiness Hours 11:00〜17:00\nClosed: Sundays and public holidays\n\n◆❖◇◇❖◆◆❖◇◇❖◆◆❖◇◇❖\n\n#Halloween\n#HalloweenGoods\n#HalloweenHandmade\n#NipporiFabricTown\n#nipporifabrictown",
+        "translatedAt": "2026-10-23T15:43:54.003522+00:00"
+      }
     },
     {
       "postId": "18218488786354987",
@@ -166,7 +319,22 @@
       "captionStatus": "complete",
       "sourceUrl": "https://www.instagram.com/p/DdqDkmMk46v/",
       "postedAt": "2026-09-24T04:44:26+00:00",
-      "publicUntil": "2026-12-08T04:44:26+00:00"
+      "publicUntil": "2026-12-08T04:44:26+00:00",
+      "translation": {
+        "version": 1,
+        "provider": "google-cloud-translation-basic",
+        "model": "nmt",
+        "sourceLanguage": "ja",
+        "targetLanguage": "en",
+        "sourceHash": "d853fe7f49bb3433082f21f5f498dc1c931f9697c970873ba06923ad980003e5",
+        "title": "October Nippori Textile Town Workshops",
+        "description": "October Nippori Textile Town Workshops\n\nWe're pleased to announce a workshop to enjoy in Nippori Textile Town! 🧵🪡\nWe will be holding a workshop at \"Furatto Nippori,\" featuring handmade craftspeople from \"Craft Apartment Nippori\" as instructors.\n\nWorkshops using home sewing machines, workshops that evoke the atmosphere of autumn and Halloween, and much more! 👻🍂\nWe look forward to seeing many of you there!\n\n﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌\n●10/3(Sat), 10/8(Thu), 10/16(Fri)\n\"Skirt-style Wide Pants Made with a Home Sewing Machine\"\nInstructor: Sayukido\n\n●10/6(Tue), 10/7(Wed)\n\"Wobbly Skull Made with Macrame\"\nInstructor: Kick Slash Japan kickslashjapan ●10/10(Sat), 10/20(Tue)\n\"Making a Genuine Leather Clasp Pouch with a Home Sewing Machine\"\nInstructor: Mint collection mint.col\n\n●10/17(Sat)\n\"Making a Flex-frame Pouch with a Home Sewing Machine\"\nInstructor: Madam Paprika madam_paprika611\n\n●10/21(Wed)\n\"An Adult Necklace Evoking Autumn\"\nInstructor: blue glove clover blue_glove_clover\n\n●10/22(Thu), 10/24(Sat)\n\"Halloween Ghosts Made with Wool Felt\"\nInstructor: Piccola Creature piccolacreature ●10/23 (Fri)\n\"Basic Coin Purse Made with Liberty Fabric\"\nInstructor: Maybe.s (maybe.s2021)\n\n●10/31 (Sat)\n\"Lapis Lazuli Cat Brooch Made with Resin\"\nInstructor: Handmade Workshop Boboya fukusitaisaku_boboya\n\n﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌\n*Minors must be accompanied by a guardian to participate in the workshop.\n\n*Please note that the event may be canceled or postponed depending on the circumstances.\n\n🎁All participants in the October workshops will receive a Furatto Nippori original mini towel as a gift! ✨\n\nSample works from each workshop can be viewed at \"Furatto Nippori\".\n\n〈Reservations & Inquiries〉\nCraft Apartment (Craft Apartment) Nippori\nReservations are accepted in-store, by phone, or via Instagram DM.\n\nAddress: Higashi-Nippori, Arakawa-ku 6-17-8\nBusiness Hours: 11:00〜17:00 (Closed Sundays and public holidays)\nTEL: 080-7063-5799 (On business days: 10:30〜17:30)\n\n〈Venue〉\nFuratto Nippori (Arakawa-ku Nippori Community Revitalization Facility)\nAddress: Higashi-Nippori, Arakawa-ku 6-17-6\n\n〈Organizer〉\nArakawa-ku, Tokyo Nippori Textile Wholesale Cooperative\n\n#NipporiFabricTownWorkshop\n#FlatNippori\n#Workshop\n#NipporiFabricTown\n#nipporifabrictown",
+        "translatedAt": "2026-10-23T15:43:54.003522+00:00",
+        "postEdit": {
+          "reviewedAt": "2026-10-23T15:46:04.860452+00:00",
+          "reason": "Checked against Japanese source: month/unit wording, maker room attribution and source account spelling. No event schedule inferred."
+        }
+      }
     },
     {
       "postId": "17923405995425543",
@@ -176,7 +344,22 @@
       "captionStatus": "complete",
       "sourceUrl": "https://www.instagram.com/p/DddKu7qE0kO/",
       "postedAt": "2026-09-19T04:36:53+00:00",
-      "publicUntil": "2026-12-03T04:36:53+00:00"
+      "publicUntil": "2026-12-03T04:36:53+00:00",
+      "translation": {
+        "version": 1,
+        "provider": "google-cloud-translation-basic",
+        "model": "nmt",
+        "sourceLanguage": "ja",
+        "targetLanguage": "en",
+        "sourceHash": "20888e994495ab6688e82af1512e383bfc7013914c49642c4a14d3079c44e001",
+        "title": "Thank you for always watching! ☺︎",
+        "description": "Thank you for always watching! ☺︎\n\nWe will be closed from tomorrow 9/20 (Sun) to 23 (Wed).\n\nThe in-store event \"Knitting & Amigurumi Festival\" and\nthe pop-up shop by Madam Paprika (madam_paprika611) will run until 9/26 (Sat)!\n\nThere are still many wonderful works available, so please stop by! ✨\n\nFrom 9/29 (Tue),\n\na pop-up shop by BOOOOOOO (booooooo.co), the maker from Room 203, will begin.\nPlease look forward to it! 🌟\n\n#craftapartmentNippori\n#rentalbox\n#NipporiTextileTown\n#knitting\n#coinpurse",
+        "translatedAt": "2026-10-23T15:43:54.003522+00:00",
+        "postEdit": {
+          "reviewedAt": "2026-10-23T15:46:04.860489+00:00",
+          "reason": "Checked against Japanese source: month/unit wording, maker room attribution and source account spelling. No event schedule inferred."
+        }
+      }
     }
   ]
 }
