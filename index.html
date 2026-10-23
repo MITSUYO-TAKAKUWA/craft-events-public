@@ -8,93 +8,95 @@
 <title>作家のイベント告知 | Craft Apartment 日暮里（非公式試作）</title>
 <style>
 :root{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;color:#293d32;background:#f7f6f1;font-size:15px}
-*{box-sizing:border-box}
-body{margin:0}
-.wrap{width:min(100% - 32px,1000px);margin:0 auto}
-.notice{background:#e7eee4;border-bottom:1px solid #becdbb;font-size:12px;color:#31553e}
-.notice .wrap{padding:9px 0;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
-header{padding:19px 0;border-bottom:1px solid #dddcd4;background:#fdfcf9}
-header .brand{font-size:17px;font-weight:700;letter-spacing:.04em}
-header .sub{font-size:10px;letter-spacing:.15em;color:#697d6b;margin-top:3px}
-main{min-height:calc(100vh - 260px);padding:48px 0 75px}
-.eyebrow{font-size:12px;font-weight:700;color:#738f76;letter-spacing:.2em}
-h1{font-size:clamp(26px,4vw,42px);font-weight:600;letter-spacing:.045em;line-height:1.4;margin:6px 0 17px}
-.lead{line-height:1.9;color:#526759;max-width:700px;margin:0 0 28px}
-.filters{display:flex;gap:12px;flex-wrap:wrap;margin:25px 0 30px}
-.filters input,.filters select{border:1px solid #c9d2c6;background:white;border-radius:8px;padding:12px 14px;font:inherit;min-width:195px;max-width:100%}
-.filters input{flex:1;min-width:230px}
-.section-head{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #d3d9d0;margin-bottom:22px;gap:10px}
-.section-head h2{font-size:20px;font-weight:600}.count{font-size:13px;color:#748273}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-.card{padding:22px;background:#fff;border:1px solid #dce2da;border-radius:12px;box-shadow:0 2px 8px #1b30200a;min-width:0;display:flex;flex-direction:column;gap:10px}
-.card .tag{font-size:11px;color:#49714d;background:#edf4eb;border-radius:5px;align-self:start;padding:4px 8px}
-.card h3{font-size:17px;line-height:1.55;margin:0;overflow-wrap:anywhere}
-.card .postdate{font-size:12px;color:#788478}
-.card .description{white-space:pre-line;overflow-wrap:anywhere;color:#485b4b;line-height:1.8;margin:0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:6;overflow:hidden}
-.card a{margin-top:auto;font-weight:600;color:#1e6946;text-underline-offset:4px;padding-top:7px}
-.empty{padding:65px 15px;border:1px dashed #bfcdbd;border-radius:11px;text-align:center;color:#647667}
-.empty strong{font-size:17px;color:#465b48}
-.small{font-size:12px;line-height:1.9;color:#697b69}
-.error{padding:18px;background:#fff4ed;border:1px solid #e1b6a7;border-radius:8px;color:#8f4437}
-footer{padding:22px 0;background:#f0f0e9;text-align:center;color:#627063;font-size:12px;line-height:1.8}
-[hidden]{display:none!important}
-@media(max-width:690px){main{padding:33px 0 50px}.grid{grid-template-columns:1fr}.filters{display:block}.filters input,.filters select{display:block;width:100%;margin-bottom:10px}.card{padding:18px}.notice .wrap{display:block}.notice .wrap>*{display:block;margin-bottom:3px}}
+*{box-sizing:border-box}body{margin:0}button,input,select,summary{font:inherit}button,select,summary{cursor:pointer}button,a,input,select,summary{-webkit-tap-highlight-color:transparent}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #357655;outline-offset:3px}a{color:#246342;text-underline-offset:4px}button{min-height:46px}button,input,select{max-width:100%}
+.wrap{width:min(100% - 36px,1000px);margin:0 auto}.skip{position:absolute;left:12px;top:-80px;padding:12px;background:white;z-index:2}.skip:focus{top:12px}
+.notice{background:#e7eee4;border-bottom:1px solid #cdd8c9;font-size:12px;color:#31553e}.notice .wrap{padding:10px 0}
+header{padding:20px 0;border-bottom:1px solid #dddcd4;background:#fdfcf9}.brand{font-size:17px;font-weight:700;letter-spacing:.04em}.sub{font-size:10px;letter-spacing:.17em;color:#697d6b;margin-top:5px}
+main{min-height:calc(100vh - 230px);padding:42px 0 65px}.eyebrow{font-size:11px;font-weight:700;color:#617c65;letter-spacing:.18em}h1{font-size:clamp(27px,4vw,40px);font-weight:600;letter-spacing:.025em;line-height:1.45;margin:8px 0 16px}h1 span{display:inline-block}.lead{line-height:1.9;color:#526759;max-width:720px;margin:0 0 22px}
+.about{background:#eeefe7;border:1px solid #dce1d5;border-radius:12px;padding:0 18px;margin:0 0 28px}.about summary{min-height:50px;padding:13px 0;font-weight:600}.about p{margin:0 0 15px;color:#526759;line-height:1.85;font-size:14px}
+.switch{display:flex;gap:8px;padding:5px;background:#e8ede4;border-radius:12px;margin-bottom:18px}.switch button{flex:1;border:1px solid transparent;border-radius:8px;background:transparent;color:#4a624e;padding:12px 14px;font-weight:600;line-height:1.55}.switch button[aria-pressed="true"]{background:#fff;border-color:#d1daca;box-shadow:0 2px 5px #263c2410;color:#234d35}
+.mode-note{color:#5b705d;line-height:1.85;font-size:13px;margin:0 0 18px}.demo-note{padding:16px 18px;border:1px solid #d7cdb7;background:#faf6ec;border-radius:10px;color:#675b40}.demo-note strong{display:block;margin-bottom:5px;color:#51482f}
+.filters{display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,250px);gap:14px;margin:22px 0}.filters label{font-size:12px;font-weight:600;color:#586d5a;display:block;margin-bottom:7px}.filters input,.filters select{border:1px solid #b7c6b4;background:#fff;border-radius:8px;padding:12px;font-size:16px;min-height:48px;width:100%;min-width:0}.filters>div{min-width:0}
+.section-head{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #d3d9d0;margin-bottom:18px;gap:12px}.section-head h2{font-size:19px;font-weight:600;line-height:1.6}.count{font-size:13px;color:#617360;white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}.card{padding:23px;background:#fff;border:1px solid #dce2da;border-radius:12px;box-shadow:0 2px 8px #1b302007;min-width:0;display:flex;flex-direction:column;gap:12px;overflow-wrap:anywhere}.tags{display:flex;gap:6px;flex-wrap:wrap}.tag{font-size:11px;color:#416447;background:#edf4eb;border-radius:5px;padding:5px 8px;line-height:1.5}.tag.neutral{color:#68634e;background:#f4f1e8}.card h3{font-size:18px;line-height:1.65;margin:0;font-weight:650}.postdate{font-size:12px;color:#687b69}.description{white-space:pre-wrap;overflow-wrap:anywhere;color:#485b4b;line-height:1.9;margin:0}.description.is-collapsed{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:6;overflow:hidden}.read-more{align-self:start;border:1px solid #b7cbb5;background:#f4f8f1;border-radius:7px;color:#285b39;padding:8px 16px;font-weight:600}.card a{display:flex;align-items:center;min-height:46px;font-size:14px;font-weight:600;margin-top:4px}.caption-note{font-size:12px;line-height:1.75;color:#776240;margin:0}.facts{display:grid;grid-template-columns:4em minmax(0,1fr);gap:8px 12px;margin:0;line-height:1.8;font-size:14px}.facts dt{color:#667761}.facts dd{margin:0}.source{font-size:12px;color:#6b745f;border-top:1px solid #eceee7;margin:4px 0 0;padding-top:12px;line-height:1.8}
+.empty{padding:42px 20px;border:1px dashed #bfcdbd;border-radius:11px;text-align:center;color:#647667;line-height:1.9}.empty strong{font-size:17px;color:#465b48}.empty p{margin-bottom:0}.small{font-size:12px;line-height:1.9;color:#647664}.error{padding:16px;background:#fff4ed;border:1px solid #e1b6a7;border-radius:8px;color:#8f4437;line-height:1.8;margin:15px 0}#updated{margin-top:25px}footer{padding:24px 18px;background:#eeeee6;text-align:center;color:#627063;font-size:12px;line-height:1.9}[hidden]{display:none!important}
+@media(max-width:690px){main{padding:28px 0 44px}.grid{grid-template-columns:1fr}.filters{grid-template-columns:1fr;gap:12px}.card{padding:19px}.switch button{padding:11px 8px;font-size:13px}.section-head h2{font-size:17px}.lead{font-size:14px}.wrap{width:calc(100% - 32px)}}
+@media(prefers-reduced-motion:no-preference){button,a{transition:background-color .15s}}
 </style>
 </head>
 <body>
-<div class="notice"><div class="wrap"><span>提案用デモ・非公式（施設公式サイトではありません）</span><span>告知内容は元Instagram投稿でご確認ください</span></div></div>
+<a class="skip" href="#content">告知一覧へ移動</a>
+<div class="notice"><div class="wrap">ご提案用の非公式試作です。施設の公式サイトではありません。</div></div>
 <header><div class="wrap"><div class="brand">Craft Apartment 日暮里</div><div class="sub">ARTISTS & EVENTS</div></div></header>
 <main class="wrap">
 <p class="eyebrow">EVENT ANNOUNCEMENTS</p>
-<h1>つくる人に、会いに行こう。</h1>
-<p class="lead">所属作家や施設のInstagram投稿から、イベント関連の告知を自動で整理しています。投稿の掲載は開催確定を意味しません。必ず元の投稿で日時・会場・変更・中止をご確認ください。</p>
-<div class="filters"><input id="search" type="search" placeholder="告知を検索" aria-label="告知を検索"><select id="account" aria-label="投稿元"><option value="">投稿元：すべて</option><option value="craft.apartment.nippori">施設のInstagram</option><option value="tamakuma7">たまちゃんさん</option></select></div>
-<div class="section-head"><h2>Instagramから届いた告知</h2><span class="count" id="count">読込中</span></div>
-<div id="error" class="error" hidden></div>
-<div id="empty" class="empty" hidden><strong>現在表示できる告知はありません</strong><p>Instagramの接続状況と元投稿をご確認ください。</p></div>
+<h1><span>つくる人に、</span><span>会いに行こう。</span></h1>
+<p class="lead">いつものInstagram投稿から、作家さんのイベント告知をひとつの一覧へ。<br>施設の投稿から届いた情報と、作家イベントの掲載イメージをご覧いただけます。</p>
+<details class="about"><summary>作家さんは、いつもの投稿だけ。</summary><p>参加は任意です。ご希望の作家さんにInstagramのプロフィールURLをご提供いただき、取得の確認・登録・情報整理はこちらで担当します。毎回イベント情報を入力していただく必要はありません。</p><p>希望する方のみ、クリエイター／ビジネスアカウントへの変更をご検討いただきます。対象の公開プロアカウントでも公式APIで取得できない場合があります。自動掲載は、取得確認ができた方からのご案内です。</p></details>
+<div class="switch" role="group" aria-label="表示する情報"><button id="live-mode" type="button" aria-pressed="true" aria-controls="content">現在の掲載情報</button><button id="demo-mode" type="button" aria-pressed="false" aria-controls="content">作家イベントの<br class="mobile-break">掲載イメージ</button></div>
+<section id="content" aria-labelledby="section-title">
+<p id="live-note" class="mode-note">施設のInstagramから取得したイベント関連告知を、投稿日順に表示しています。開催確定済みの予定表ではありません。日時・会場・変更・中止は元投稿でご確認ください。</p>
+<div id="demo-note" class="mode-note demo-note" hidden><strong>掲載イメージ／すべて架空のサンプルです</strong>作家名・日時・会場・告知内容は架空です。Instagramから取得した実投稿ではなく、現在の掲載件数には含まれません。実運用では取得できた原文を表示し、日時・会場を推測で補いません。下の整理済み項目は表示例です。</div>
+<div class="filters"><div><label for="search">キーワード</label><input id="search" type="search" placeholder="作家名・告知内容などを検索" autocomplete="off"></div><div id="account-filter"><label for="account">投稿元</label><select id="account"><option value="">すべての投稿元</option></select></div></div>
+<div class="section-head"><h2 id="section-title">Instagramから届いた告知</h2><span class="count" id="count" role="status" aria-live="polite">読込中</span></div>
+<div id="error" class="error" role="status" hidden></div>
+<div id="empty" class="empty" hidden><strong id="empty-title">現在表示できる告知はありません</strong><p id="empty-message">次の更新をお待ちください。最新のご案内はInstagramでご確認ください。</p></div>
 <div id="list" class="grid"></div>
 <p class="small" id="updated"></p>
-<p class="small">※ この一覧は日程確定済みイベントの保証ではありません。投稿が削除されても取得状況によって反映が遅れる場合があります。訪問前に必ず元投稿・主催者の最新案内でご確認ください。<br>※ Instagram連携は取得可能な公開投稿に限られます。全作家・全投稿を網羅するものではありません。</p>
+<p class="small" id="live-footnote">※ 掲載は開催確定・参加確定を意味しません。本文に日付があっても、年・開催状況をこの一覧で確認できていない場合があります。訪問前に元投稿・主催者の最新案内をご確認ください。<br>※ 取得可能な公開投稿に限られ、全作家・全投稿を網羅するものではありません。投稿の削除や変更の反映が遅れる場合があります。</p>
+</section>
 </main>
-<footer>Craft Apartment 日暮里 — 非公式イベント告知試作<br>自動取得データをもとにした参考情報です</footer>
+<footer>Craft Apartment 日暮里 — 非公式イベント告知試作<br>施設へのご提案用です。採用・試用開始が決定したものではありません。</footer>
 <script>
 'use strict';
 const $=id=>document.getElementById(id);
-let notices=[];
-const linkOK=u=>{try{const x=new URL(u);return x.protocol==='https:'&&['instagram.com','www.instagram.com'].includes(x.hostname)&&/^\/(?:p|reel)\/[A-Za-z0-9_-]+\/?$/.test(x.pathname)}catch{return false}};
-const dateText=s=>{const d=new Date(s);if(!Number.isFinite(d.valueOf()))return '投稿日不明';return '投稿日 '+new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',year:'numeric',month:'long',day:'numeric'}).format(d)};
-function render(){
- const q=$('search').value.trim().toLocaleLowerCase('ja');
- const acc=$('account').value;
- const rows=notices.filter(x=>(!acc||x.account===acc)&&(!q||(x.title+' '+x.description).toLocaleLowerCase('ja').includes(q)));
- $('count').textContent=rows.length+'件';
- $('empty').hidden=rows.length>0;
- const f=document.createDocumentFragment();
- for(const item of rows){
-  const c=document.createElement('article');c.className='card';
-  const tag=document.createElement('span');tag.className='tag';tag.textContent=item.account==='tamakuma7'?'たまちゃんさん':'施設のInstagram';c.append(tag);
-  const h=document.createElement('h3');h.textContent=item.title;c.append(h);
-  const date=document.createElement('span');date.className='postdate';date.textContent=dateText(item.postedAt);c.append(date);
-  const p=document.createElement('p');p.className='description';p.textContent=item.description;c.append(p);
-  const a=document.createElement('a');a.href=item.sourceUrl;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Instagramの元投稿で詳細を確認 ↗';c.append(a);f.append(c);
- }
- $('list').replaceChildren(f);
+let notices=[],samples=[],mode='live',loaded=false,demoLoaded=false,liveError='',demoError='',updatedText='',renderId=0;
+const linkOK=u=>{try{if(typeof u!=='string')return false;const x=new URL(u);return x.protocol==='https:'&&!x.username&&!x.password&&!x.port&&!x.search&&!x.hash&&['instagram.com','www.instagram.com'].includes(x.hostname)&&/^\/(?:p|reel)\/[A-Za-z0-9_-]+\/?$/.test(x.pathname)}catch{return false}};
+const accountOK=s=>typeof s==='string'&&/^[a-zA-Z0-9._]{1,30}$/.test(s);
+const sourceName=a=>a==='craft.apartment.nippori'?'施設のInstagram':'@'+a;
+const dateText=s=>{const d=new Date(s);if(!s||!Number.isFinite(d.valueOf()))return 'Instagram投稿日：不明';return 'Instagram投稿日：'+new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',year:'numeric',month:'long',day:'numeric'}).format(d)};
+const node=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e};
+function addDescription(card,text,key,status){
+ const p=node('p','description is-collapsed',text);p.id='caption-'+key;card.append(p);
+ const b=node('button','read-more','続きを読む');b.type='button';b.hidden=true;b.setAttribute('aria-expanded','false');b.setAttribute('aria-controls',p.id);
+ b.addEventListener('click',()=>{const open=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',String(open));b.textContent=open?'閉じる':'続きを読む';p.classList.toggle('is-collapsed',!open)});card.append(b);
+ if(status==='legacy')card.append(node('p','caption-note','以前の取得データのため、本文が省略されている可能性があります。続きはInstagramの元投稿をご確認ください。'));
+ if(status==='image-only')card.append(node('p','caption-note','画像内の告知・開催日時はInstagramの元投稿でご確認ください。'));
 }
-$('search').addEventListener('input',render);
-$('account').addEventListener('change',render);
-(async()=>{
- try{
-  const r=await fetch('./feed.json',{cache:'no-store'});
-  if(!r.ok)throw Error('FETCH_'+r.status);
-  const v=await r.json();
-  if(!v||!Array.isArray(v.notices))throw Error('FEED_INVALID');
-  if(v.sourceStatus?.state==='meta-api-blocked'){$('error').hidden=false;$('error').textContent='現在、Instagramの新規取得が停止しています。掲載済みの告知は前回取得時点の情報です。元投稿で最新状況をご確認ください。';}
-  notices=v.notices.filter(x=>x&&typeof x.title==='string'&&typeof x.description==='string'&&['craft.apartment.nippori','tamakuma7'].includes(x.account)&&linkOK(x.sourceUrl)).slice(0,80);
-  const stamp=new Date(v.generatedAt);
-  if(Number.isFinite(stamp.valueOf()))$('updated').textContent='最終更新：'+new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',dateStyle:'medium',timeStyle:'short'}).format(stamp);
-  render();
- }catch(e){$('count').textContent='取得できません';$('error').hidden=false;$('error').textContent='イベント告知を読み込めませんでした。元のInstagramをご確認ください。';}
-})();
+function measureCaptions(){for(const p of document.querySelectorAll('.description')){const b=p.nextElementSibling;if(b.getAttribute('aria-expanded')==='true')continue;b.hidden=p.scrollHeight<=p.clientHeight+1}}
+function render(){
+ const demo=mode==='demo',q=$('search').value.trim().toLocaleLowerCase('ja'),acc=$('account').value;
+ const rows=(demo?samples:notices).filter(x=>(demo||!acc||x.account===acc)&&(!q||[x.title,x.description,x.artistName,x.venueName,x.eventDate,x.eventTime].filter(Boolean).join(' ').toLocaleLowerCase('ja').includes(q)));
+ $('live-mode').setAttribute('aria-pressed',String(!demo));$('demo-mode').setAttribute('aria-pressed',String(demo));$('live-note').hidden=demo;$('demo-note').hidden=!demo;$('account-filter').hidden=demo;$('live-footnote').hidden=demo;
+ $('section-title').textContent=demo?'作家イベントの掲載イメージ':'Instagramから届いた告知';
+ $('count').textContent=(demo?demoLoaded:loaded)?(demo?'サンプル ':'')+rows.length+'件':'読込中';
+ const error=demo?demoError:liveError;$('error').hidden=!error;$('error').textContent=error;
+ $('empty').hidden=rows.length>0||!(demo?demoLoaded:loaded)||Boolean(error&&rows.length===0);
+ $('empty-title').textContent=q||acc?'条件に合う告知が見つかりません':'現在表示できる告知はありません';
+ $('empty-message').textContent=q||acc?'キーワードや投稿元を変更してご覧ください。':'次の更新をお待ちください。最新のご案内はInstagramでご確認ください。';
+ const f=document.createDocumentFragment();renderId++;
+ rows.forEach((item,i)=>{
+  const c=node('article','card'),tags=node('div','tags');tags.append(node('span','tag',demo?'架空の作家・サンプル':sourceName(item.account)));tags.append(node('span','tag neutral',demo?'掲載イメージ':'イベント関連告知'));c.append(tags);
+  c.append(node('h3','',item.title));
+  if(demo){const dl=node('dl','facts');for(const [label,value] of [['作家',item.artistName],['開催日',item.eventDate],['時間',item.eventTime],['会場',item.venueName]])dl.append(node('dt','',label),node('dd','',value));c.append(dl)}
+  else{c.append(node('span','postdate',dateText(item.postedAt)),node('span','postdate','開催日時：この一覧では未確認'))}
+  addDescription(c,item.description,renderId+'-'+i,demo?'sample':(item.captionStatus||'legacy'));
+  if(demo)c.append(node('p','source','出典：表示確認用に作成した架空の告知文。実在するInstagram投稿へのリンクはありません。'));
+  else{const a=node('a','','Instagramの元投稿で詳細を確認 ↗');a.href=item.sourceUrl;a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',item.title+'：Instagramの元投稿を開く（別タブ）');c.append(a)}
+  f.append(c);
+ });
+ $('list').replaceChildren(f);$('updated').textContent=demo?'この表示は架空のサンプルです。実投稿の更新とは連動しません。':updatedText;
+ requestAnimationFrame(measureCaptions);
+}
+function sources(){const f=document.createDocumentFragment();const all=node('option','','すべての投稿元');all.value='';f.append(all);for(const a of [...new Set(notices.map(x=>x.account))].sort()){const o=node('option','',sourceName(a));o.value=a;f.append(o)}$('account').replaceChildren(f)}
+async function showMode(next){mode=next;$('search').value='';$('account').value='';render();if(next!=='demo'||demoLoaded)return;try{const r=await fetch('./demo.json');if(!r.ok)throw Error();const d=await r.json();if(d.isDemo!==true||!Array.isArray(d.samples))throw Error();samples=d.samples.filter(x=>x&&x.isDemo===true&&['title','description','artistName','eventDate','eventTime','venueName'].every(k=>typeof x[k]==='string')).slice(0,6)}catch{demoError='掲載イメージを読み込めませんでした。ページを再読み込みしてください。'}demoLoaded=true;render()}
+$('search').addEventListener('input',render);$('account').addEventListener('change',render);$('live-mode').addEventListener('click',()=>showMode('live'));$('demo-mode').addEventListener('click',()=>showMode('demo'));window.addEventListener('resize',measureCaptions);
+(async()=>{try{
+ const r=await fetch('./feed.json',{cache:'no-store'});if(!r.ok)throw Error();const v=await r.json();if(!v||!Array.isArray(v.notices))throw Error();
+ notices=v.notices.filter(x=>x&&x.isDemo!==true&&typeof x.title==='string'&&typeof x.description==='string'&&accountOK(x.account)&&/^\d{9,25}$/.test(x.postId)&&linkOK(x.sourceUrl)).slice(0,80);
+ if(v.sourceStatus?.state==='meta-api-blocked')liveError='現在、新しい投稿の取得が停止しています。掲載済みの告知は前回取得時点の情報です。元投稿で最新状況をご確認ください。';
+ const stamp=new Date(v.generatedAt);if(v.generatedAt&&Number.isFinite(stamp.valueOf()))updatedText='掲載情報の最終更新：'+new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',dateStyle:'medium',timeStyle:'short'}).format(stamp)+'（日本時間）';sources();
+ }catch{liveError='告知を読み込めませんでした。ページを再読み込みするか、施設のInstagramで最新のご案内をご確認ください。'}loaded=true;render()})();
 </script>
 </body>
 </html>
